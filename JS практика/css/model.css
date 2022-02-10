@@ -1,0 +1,36 @@
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.window{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 150px auto;
+}
+.window-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+}
+.window-title{
+    font-size: 1.5rem;
+}
+.window-close{
+    cursor: pointer;
+}
+.window-body{
+    padding: 10px;
+}
+.window-body p {
+    margin: 0 0 5px;
+}
+.window-footer{
+    padding: 5px 10px;
+    border-top: 1px solid #eee;   
+}
